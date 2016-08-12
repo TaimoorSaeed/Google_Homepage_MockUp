@@ -1,0 +1,67 @@
+html{
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline-flex;
+    float: right;
+    padding: 7px;
+}
+
+.pd-top{
+    padding-top: 10px;
+}
+
+footer ul{
+display: inline;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /*position: relative;*/
+}
+
+footer li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.left{
+    float: left;
+    padding: 7px;
+}
+.right{
+    float: right;
+    padding: 7px;
+}
+
+li a{
+    color: #666
+}
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+.mdl-button--raised.mdl-button--colored {
+    background: #4285f4 !important;
+}
+.mdl-button {
+height: 29px !important;
+line-height: 0px !important;
+text-transform: none !important;
+}
