@@ -12,6 +12,12 @@ header li{
     padding: 7px;
 }
 
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 .pd-top{
     padding-top: 10px;
 }
@@ -60,8 +66,38 @@ a:link {
 .mdl-button--raised.mdl-button--colored {
     background: #4285f4 !important;
 }
+
 .mdl-button {
 height: 29px !important;
 line-height: 0px !important;
 text-transform: none !important;
+}
+section{
+        margin-top: 18%;
+    position: absolute;
+    width: 100%;
+}
+
+footer{
+        margin-top: 40vh;  
+}
+div input{
+        width: 640px;
+        height: 30px;
+}
+.wrapper{
+        width: 65%;
+    margin-left: 275;
+}
+.g-img{
+    padding-left: 190px;
+}
+.mdl-button--raised {
+    box-shadow: none !important;
+}
+.buttons-div{    padding-left: 190px;
+    padding-top: 35px;
+}
+.search-div{
+    padding-top: 19px;
 }
